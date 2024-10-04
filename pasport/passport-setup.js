@@ -6,7 +6,7 @@ passport.use('ReavizOnline', new OAuth2Strategy({
         tokenURL: 'https://lks.reaviz.online/auth/token',
         clientID: '1',
         clientSecret: 'wvt4YJ4ZfEjrHh4FsHwrCCyYuPfF3nerLJPXvbRX',
-        callbackURL: 'http://localhost:3000/home'
+        callbackURL: 'http://oauth2.reaviz.seotlt.xsfera.ru:3000'
     },
     function(accessToken, refreshToken, profile, done) {
     console.log(accessToken);
